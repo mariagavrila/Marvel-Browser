@@ -1,0 +1,37 @@
+.modal__backdrop {
+  background: rgba(0, 0, 0, 0.301);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+.modal__container {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 560px;
+}
+.btn {
+  background: #cc00a0;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.6rem 0.8rem;
+  transition: transform 100ms ease-out;
+}
+.btn:hover {
+  background: #b3078d;
+  transform: scale(1.1);
+}
+.btn:focus {
+  outline: none;
+}
