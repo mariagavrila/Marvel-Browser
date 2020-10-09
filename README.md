@@ -1,3 +1,5 @@
+Los imágenes de la API de Marvel no son accesibles, se han usado imagenes random de una API gratuita.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

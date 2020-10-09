@@ -3,7 +3,6 @@ import Modal from "@material-ui/core/Modal";
 import "./Details.css";
 
 export default function ModalDetails({ hero, urlImage }) {
-  console.log(hero);
 
   const [open, setOpen] = React.useState(false);
 
