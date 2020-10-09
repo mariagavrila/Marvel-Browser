@@ -7,7 +7,8 @@ import "./Heroes.css";
 
 export default function Heroes() {
   let heroes = useSelector((state) => state.heroes);
-  let notFound = heroes ? "" : "Heroes not found";
+  let err = useSelector((state) => state.error);
+
   let random = 0;
   return (
     <div className="container">
@@ -39,7 +40,7 @@ export default function Heroes() {
             </a>
           ))
         ) : (
-          <h1>{notFound}</h1>
+          <h2 className="text-center">{err}</h2>
         )}
       </div>
     </div>

@@ -69,3 +69,6 @@ img {
 .hide {
   visibility: hidden;
 }
+.text-center {
+  text-align: center;
+}
